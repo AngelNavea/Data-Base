@@ -3,7 +3,7 @@
 R:El atributo tinyint no lo había entediddo asta que el profesor nos explico que era un atrivuto float y los created, modified y deleted no los entiendo supuse que son las 
 modificaciones de la tabla para cuendo se ingresen nuevos datos o modifiquen los que ya estan en ella al igual que eliminarlos/borrarlos.
 
-RR:El tipo de dato TINYINT es un tipo numérico exacto osea que almacena solo numeros pequeños es el tipo de dato numerico mas quequeño en SQL
+RR:El tipo de dato TINYINT es un tipo numérico exacto osea que almacena solo numeros pequeños es el tipo de dato numerico mas quequeño en SQL.
 
 RR:los crated son la forma de registrat lo que se a crado dentro de la tabla, los modified registran la ultima vez que se modifico un dato o una tabla y los deleted son un 
-tipo de marcadador el cual marca datos o tablas las cuales fueron eliminadas en vez de eliminarlas fisicamente
+tipo de marcadador el cual marca datos o tablas las cuales fueron eliminadas en vez de eliminarlas fisicamente.
