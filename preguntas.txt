@@ -1,0 +1,4 @@
+¿Qué elementos o atributos ves que no conocías? 
+
+R:El atributo tinyint no lo avia entediddo asta que el profesor nos explico que era un atrivuto float, los created, modified y deleted no los entiendo supuse que son las 
+modificaciones de la tabla para cuendo se ingresen nuevos datos o modifiquen los que ya estan en ella al igual que eliminarlos
