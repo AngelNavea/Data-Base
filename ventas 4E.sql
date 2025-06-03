@@ -82,3 +82,19 @@ created_by INT,-- Usuario que crea
 updated_by INT,-- Usuario que modifica
 deleted BOOLEAN DEFAULT FALSE -- Borrado lógico
 );
+
+ALTER TABLE usuarios 
+ADD CONSTRAINT fk_usuario_ventas
+FOREIGN KEY (ventas_id) REFERENCES
+ventas(id_ventas);
+
+ALTER TABLE detalle_ventas 
+ADD CONSTRAINT fk_detalle_ventas_ventas
+FOREIGN KEY (ventas_id) REFERENCES
+ventas(id_ventas);
+
+ALTER TABLE detalle_ventas 
+ADD CONSTRAINT fk_detalle_ventas_productos
+FOREIGN KEY (productos_id) REFERENCES
+productos(id_productos);
+
